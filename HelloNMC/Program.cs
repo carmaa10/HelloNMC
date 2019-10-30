@@ -11,6 +11,9 @@ namespace HelloNMC
         static void Main(string[] args)
         {
             Console.WriteLine("Hello NMC");
+
+            Console.WriteLine("\nPress any key to continue");
+            Console.ReadKey();
         }
     }
 }
